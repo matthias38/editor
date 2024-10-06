@@ -7,7 +7,7 @@ import React from 'react'
 
 import { activeEditor$, editorRootElementRef$, iconComponentFor$, useTranslation } from '../core'
 import { DownshiftAutoComplete } from '../core/ui/DownshiftAutoComplete'
-import styles from '@/styles/ui.module.css'
+import styles from '../../styles/ui.module.css'
 import classNames from 'classnames'
 import { createCommand, LexicalCommand } from 'lexical'
 import { useForm } from 'react-hook-form'
